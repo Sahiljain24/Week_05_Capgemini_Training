@@ -12,8 +12,8 @@ import java.io.IOException;
 
 public class ModifyCSV {
     public static void main(String[] args) {
-        String inputPath = "src/main/resources/employees.csv";   // Input CSV file
-        String outputPath = "src/main/resources/updated_employees.csv"; // Output CSV file
+        String inputPath = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src/main/resources/employees.csv";   // Input CSV file
+        String outputPath = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src/main/resources/updated_employees.csv"; // Output CSV file
 
         try (CSVReader reader = new CSVReader(new FileReader(inputPath));
              CSVWriter writer = new CSVWriter(new FileWriter(outputPath))) {

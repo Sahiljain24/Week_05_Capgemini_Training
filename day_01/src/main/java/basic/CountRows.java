@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class CountRows {
     public static void main(String[] args) {
-        String path = "src\\main\\resources\\employees.csv";
+        String path = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src\\main\\resources\\employees.csv";
         int count=0;
         try (CSVReader reader = new CSVReader(new FileReader(path))) {
             String [] nextLine;

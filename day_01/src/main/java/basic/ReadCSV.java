@@ -13,7 +13,7 @@ Print each record in a structured format.
 */
 public class ReadCSV {
     public static void main(String[] args) {
-        String path = "src\\main\\resources\\employees.csv";
+        String path = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src\\main\\resources\\employees.csv";
         try (CSVReader reader = new CSVReader(new FileReader(path))) {
             String [] nextLine;
             nextLine=reader.readNext();

@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class GenerateLargeCSV {
     public static void main(String[] args) throws IOException {
-        FileWriter fileWriter = new FileWriter("largefile.csv");
+        FileWriter fileWriter = new FileWriter("C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src\\main\\resources\\largefile.csv");
 
         // Writing header
         fileWriter.append("ID,Name,Age,Salary,Department,Email,Phone Number\n");

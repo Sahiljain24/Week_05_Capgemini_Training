@@ -11,8 +11,8 @@ import java.util.*;
 
 public class SortCSV {
     public static void main(String[] args) {
-        String inputPath = "src/main/resources/employees.csv";   // Input CSV file path
-        String outputPath = "src/main/resources/sorted_employees.csv";  // Output CSV file path
+        String inputPath = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src/main/resources/employees.csv";   // Input CSV file path
+        String outputPath = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src/main/resources/sorted_employees.csv";  // Output CSV file path
 
         try (CSVReader reader = new CSVReader(new FileReader(inputPath))) {
             List<String[]> records = new ArrayList<>();

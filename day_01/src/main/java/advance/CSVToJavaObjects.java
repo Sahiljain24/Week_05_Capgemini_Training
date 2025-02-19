@@ -94,7 +94,7 @@ import java.util.List;
 public class CSVToJavaObjects {
 
     public static void main(String[] args) {
-        String path = "src\\main\\resources\\student.csv"; // Update the path to your CSV file
+        String path = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src\\main\\resources\\student.csv"; // Update the path to your CSV file
         List<Student> students = new ArrayList<>();
 
         try (CSVReader reader = new CSVReader(new FileReader(path))) {

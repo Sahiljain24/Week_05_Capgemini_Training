@@ -12,7 +12,7 @@ Write at least 5 records to the file
 */
 public class WriteCSV {
     public static void main(String[] args) {
-        String fileName = "src\\main\\resources\\Sahil.csv";
+        String fileName = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src\\main\\resources\\Sahil.csv";
        try (CSVWriter writer = new CSVWriter(new FileWriter(fileName,true));){
            String [] header = {"ID","Name","Age","Salary"};
            String [] row1 ={"1","John Doe","30","50000"};

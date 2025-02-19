@@ -12,7 +12,7 @@ Print only the qualifying records.
 */
 public class FIlterRecord {
     public static void main(String[] args) {
-        String path = "src\\main\\resources\\student.csv";
+        String path = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src\\main\\resources\\student.csv";
         try (CSVReader reader = new CSVReader(new FileReader(path))) {
             String [] nextLine;
             reader.readNext();

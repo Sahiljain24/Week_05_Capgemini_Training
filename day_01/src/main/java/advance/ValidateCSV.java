@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 
 public class ValidateCSV {
     public static void main(String[] args) {
-        String path = "src\\main\\resources\\employees.csv";
+        String path = "C:\\Users\\Sahil Jain\\Desktop\\Training\\Week_05\\day_01\\src\\main\\resources\\employees.csv";
 
         // Define the regex pattern for validating email
         String emailPattern = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";
